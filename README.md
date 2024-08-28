@@ -1,5 +1,5 @@
 ## Funciones en un lenguaje de propósito general
-#realizar las siguientes funciones en un lenguaje de propósito general
+# Realizar las siguientes funciones en un lenguaje de propósito general
 - factorial iterativa y recursiva (n)
 - sumatoria iterativa y recursiva(n)
 - mcd iterativa y recursiva (n)
