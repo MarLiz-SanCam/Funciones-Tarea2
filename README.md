@@ -10,3 +10,6 @@
 - edad (fecha)
 
 Funciones realizadas realizadas en el lenguaje de programación DART, cada una de las funciones realizadas corresponde a un archivo .dart, a excepción de las funciones de sumatorias, que por comodidad, se realizaron en archivos separados iterativa de recursiva.
+
+## ejercicio de clase 28082024
+Se realiza el archivo que genera en base a datos ingresados la CURP, ejercicio realizado durante el proceso de clases.
