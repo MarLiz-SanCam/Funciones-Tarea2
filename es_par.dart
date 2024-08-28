@@ -3,7 +3,7 @@ bool esPar(int numero) {
 }
 
 void main() {
-  int numero = 4;
+  int numero = 543;
   if (esPar(numero)) {
     print('$numero es par.');
   } else {
