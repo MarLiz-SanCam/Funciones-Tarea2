@@ -1,3 +1,5 @@
+import 'dart:io';
+
 String generarCurp(String nombre, String apepat, String apemat, String fNac,
     String sexo, String estado) {
   // 1. Primera letra y primera vocal interna del apellido paterno
@@ -41,7 +43,7 @@ String generarCurp(String nombre, String apepat, String apemat, String fNac,
       .firstWhere((c) => !"AEIOUaeiou".contains(c), orElse: () => 'X');
 
   // 8. Homoclave (para simplificación, uso un valor fijo)
-  String homoclave = 'MA';
+  String homoclave = '0A';
 
   // 9. Dígito verificador (para simplificación, uso un valor fijo)
   String digitoVerificador = '2';
@@ -59,12 +61,10 @@ String generarCurp(String nombre, String apepat, String apemat, String fNac,
 
 void main() {
   // Ejemplo de uso
-  String curp =
+  /*String curp =
       generarCurp('Marina', 'santini', 'Camarena', '2001-07-10', 'M', 'DF');
-  print('CURP generada: $curp');
-}
-
-/*print('Ingrese su nombre:');
+  print('CURP generada: $curp');*/
+  print('Ingrese su nombre:');
   String nombre = stdin.readLineSync()!;
 
   print('Ingrese su apellido paterno:');
@@ -84,4 +84,5 @@ void main() {
 
   String curp = generarCurp(nombre, apepat, apemat, fNac, sexo, estado);
 
-  print('CURP generada: $curp');*/
+  print('CURP generada: $curp');
+}
